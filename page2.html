@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <title>Auto</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/grid/">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="grid.css" rel="stylesheet">
+  </head>
+  <body class="py-4">
+    
+<main>
+  <div class="container">
+
+    <div class="row mb-3">
+
+      <div class="col-md-2 themed-grid-col">
+        <form action="">
+
+          <div style="text-transform: uppercase; 
+          color: rgb(182, 179, 179); 
+          font-weight: bold;
+          font-size: 11px;">
+            Type
+          </div>
+          <div style="font-weight: 500;">
+            <input type="checkbox" name="" id=""> Manuel (10) <br>
+            <input type="checkbox" name="" id=""> Automatique (16)
+          </div><br><br>
+
+          <div style="text-transform: uppercase; 
+          color: rgb(182, 179, 179); 
+          font-weight: bold;
+          font-size: 11px;">
+            Capacité
+          </div>
+          <div style="font-weight: 500;">
+            <input type="checkbox" name="" id=""> 2 Personnes (10)<br>
+            <input type="checkbox" name="" id=""> 4 Personnes (14) <br>
+            <input type="checkbox" name="" id=""> 6 Personnes (12)<br>
+            <input type="checkbox" name="" id=""> 8 ou Plus (16)
+          </div><br><br>
+
+          <div style="text-transform: uppercase; 
+          color: rgb(182, 179, 179); 
+          font-weight: bold;
+          font-size: 11px;">
+            Carburant
+          </div>
+          <div style="font-weight: 500;">
+            <input type="range"> <br> Max 100L
+          </div><br><br>
+
+          <div style="text-transform: uppercase; 
+          color: rgb(182, 179, 179); 
+          font-weight: bold;
+          font-size: 11px;">
+            Prix
+          </div>
+          <div style="font-weight: 500;">
+            <input type="range" name="" id=""> <br> Max 100.000 FCFA
+          </div>
+
+        </form>
+      </div>
+
+      <div class="col-md-10 themed-grid-col-2">
+
+        <div class="row cadre">
+          <div class="col-md-4 themed-grid-col">
+            <span style="font-weight: bold;"> Positions </span>
+            <form action="">
+              <select class="form-select" aria-label="Default select example" style="border: 0;">
+                <option selected>Choisir votre ville</option>
+                <option value="1">Cotonou</option>
+                <option value="2">Bohicon</option>
+                <option value="3">Parakou</option>
+              </select>
+            </form>
+          </div>
+          <div class="col-md-4 themed-grid-col">
+            <span style="font-weight: bold;"> Date de réception </span> 
+            <div>
+              <input type="date" style="border: 0;">
+            </div>
+          </div>
+          <div class="col-md-4 themed-grid-col">
+            <div class="row">
+              <div class="col-md-6">
+                <span style="font-weight: bold;"> Date de dépôt </span>
+                <div>
+                  <input type="date" style="border: 0;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row reste-cadre">
+
+          <div class="col-md-4 themed-grid-col">
+            <div class="themed-grid-col-suiv-2">
+              
+              <div class="container-imag">
+                <img src="images/1.jpg" alt="" style="text-align: center;">
+                <div class="fa-imag" style="
+                  padding: 5px;
+                  background-color: rgb(241, 158, 4);
+                  color: white;
+                  border-radius: 17px;">
+                  <i class="fa-solid fa-star"></i> 3.4
+                </div>
+              </div> <br>
+
+            <h5>Land rover</h5>
+
+            <i class="fa-solid fa-gas-pump"></i> 90L &nbsp;
+            <i class="fa-solid fa-gear"></i> &nbsp; Manuel  &nbsp;
+            <i class="fa-solid fa-users"></i> &nbsp; 2 Passagers
+            </br></br>
+
+            <div class="row">
+                <div class="col-md-6">
+                  50.000 FCFA / Jour
+                </div>
+                <div class="col-md-6">
+                  <button type="button" style="
+                    text-align: center;
+                    border-radius: 5px; 
+                    background-color: orange; 
+                    color: white; 
+                    border: 0px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;">
+                      Louer
+                  </button>
+                </div>
+            </div>
+           
+            </div>
+          </div>
+
+          <div class="col-md-4 themed-grid-col">
+            <div class="themed-grid-col-suiv-2">
+              
+              <div class="container-imag">
+                <img src="images/1.jpg" alt="" style="text-align: center;">
+                <div class="fa-imag" style="
+                  padding: 5px;
+                  background-color: rgb(241, 158, 4);
+                  color: white;
+                  border-radius: 17px;">
+                  <i class="fa-solid fa-star"></i> 3.4
+                </div>
+              </div> <br>
+
+            <h5>Land rover</h5>
+
+            <i class="fa-solid fa-gas-pump"></i> 90L &nbsp;
+            <i class="fa-solid fa-gear"></i> &nbsp; Manuel  &nbsp;
+            <i class="fa-solid fa-users"></i> &nbsp; 2 Passagers
+            </br></br>
+
+            <div class="row">
+                <div class="col-md-6">
+                  50.000 FCFA / Jour
+                </div>
+                <div class="col-md-6">
+                  <button type="button" style="
+                    text-align: center;
+                    border-radius: 5px; 
+                    background-color: orange; 
+                    color: white; 
+                    border: 0px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;">
+                      Louer
+                  </button>
+                </div>
+            </div>
+           
+            </div>
+          </div>
+
+          <div class="col-md-4 themed-grid-col">
+            <div class="themed-grid-col-suiv-2">
+              
+              <div class="container-imag">
+                <img src="images/1.jpg" alt="" style="text-align: center;">
+                <div class="fa-imag" style="
+                  padding: 5px;
+                  background-color: rgb(241, 158, 4);
+                  color: white;
+                  border-radius: 17px;">
+                  <i class="fa-solid fa-star"></i> 3.4
+                </div>
+              </div> <br>
+
+            <h5>Land rover</h5>
+
+            <i class="fa-solid fa-gas-pump"></i> 90L &nbsp;
+            <i class="fa-solid fa-gear"></i> &nbsp; Manuel  &nbsp;
+            <i class="fa-solid fa-users"></i> &nbsp; 2 Passagers
+            </br></br>
+
+            <div class="row">
+                <div class="col-md-6">
+                  50.000 FCFA / Jour
+                </div>
+                <div class="col-md-6">
+                  <button type="button" style="
+                    text-align: center;
+                    border-radius: 5px; 
+                    background-color: orange; 
+                    color: white; 
+                    border: 0px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;">
+                      Louer
+                  </button>
+                </div>
+            </div>
+           
+            </div>
+          </div>
+
+          <div class="col-md-4 themed-grid-col">
+            <div class="themed-grid-col-suiv-2">
+              
+              <div class="container-imag">
+                <img src="images/1.jpg" alt="" style="text-align: center;">
+                <div class="fa-imag" style="
+                  padding: 5px;
+                  background-color: rgb(241, 158, 4);
+                  color: white;
+                  border-radius: 17px;">
+                  <i class="fa-solid fa-star"></i> 3.4
+                </div>
+              </div> <br>
+
+            <h5>Land rover</h5>
+
+            <i class="fa-solid fa-gas-pump"></i> 90L &nbsp;
+            <i class="fa-solid fa-gear"></i> &nbsp; Manuel  &nbsp;
+            <i class="fa-solid fa-users"></i> &nbsp; 2 Passagers
+            </br></br>
+
+            <div class="row">
+                <div class="col-md-6">
+                  50.000 FCFA / Jour
+                </div>
+                <div class="col-md-6">
+                  <button type="button" style="
+                    text-align: center;
+                    border-radius: 5px; 
+                    background-color: orange; 
+                    color: white; 
+                    border: 0px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;">
+                      Louer
+                  </button>
+                </div>
+            </div>
+           
+            </div>
+          </div>
+
+          <div class="col-md-4 themed-grid-col">
+            <div class="themed-grid-col-suiv-2">
+              
+              <div class="container-imag">
+                <img src="images/1.jpg" alt="" style="text-align: center;">
+                <div class="fa-imag" style="
+                  padding: 5px;
+                  background-color: rgb(241, 158, 4);
+                  color: white;
+                  border-radius: 17px;">
+                  <i class="fa-solid fa-star"></i> 3.4
+                </div>
+              </div> <br>
+
+            <h5>Land rover</h5>
+
+            <i class="fa-solid fa-gas-pump"></i> 90L &nbsp;
+            <i class="fa-solid fa-gear"></i> &nbsp; Manuel  &nbsp;
+            <i class="fa-solid fa-users"></i> &nbsp; 2 Passagers
+            </br></br>
+
+            <div class="row">
+                <div class="col-md-6">
+                  50.000 FCFA / Jour
+                </div>
+                <div class="col-md-6">
+                  <button type="button" style="
+                    text-align: center;
+                    border-radius: 5px; 
+                    background-color: orange; 
+                    color: white; 
+                    border: 0px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;">
+                      Louer
+                  </button>
+                </div>
+            </div>
+           
+            </div>
+          </div>
+
+          <div class="col-md-4 themed-grid-col">
+            <div class="themed-grid-col-suiv-2">
+              
+              <div class="container-imag">
+                <img src="images/1.jpg" alt="" style="text-align: center;">
+                <div class="fa-imag" style="
+                  padding: 5px;
+                  background-color: rgb(241, 158, 4);
+                  color: white;
+                  border-radius: 17px;">
+                  <i class="fa-solid fa-star"></i> 3.4
+                </div>
+              </div> <br>
+
+            <h5>Land rover</h5>
+
+            <i class="fa-solid fa-gas-pump"></i> 90L &nbsp;
+            <i class="fa-solid fa-gear"></i> &nbsp; Manuel  &nbsp;
+            <i class="fa-solid fa-users"></i> &nbsp; 2 Passagers
+            </br></br>
+
+            <div class="row">
+                <div class="col-md-6">
+                  50.000 FCFA / Jour
+                </div>
+                <div class="col-md-6">
+                  <button type="button" style="
+                    text-align: center;
+                    border-radius: 5px; 
+                    background-color: orange; 
+                    color: white; 
+                    border: 0px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;">
+                      Louer
+                  </button>
+                </div>
+            </div>
+           
+            </div>
+          </div>
+
+          <div class="col-md-4 themed-grid-col">
+            <div class="themed-grid-col-suiv-2">
+              
+              <div class="container-imag">
+                <img src="images/1.jpg" alt="" style="text-align: center;">
+                <div class="fa-imag" style="
+                  padding: 5px;
+                  background-color: rgb(241, 158, 4);
+                  color: white;
+                  border-radius: 17px;">
+                  <i class="fa-solid fa-star"></i> 3.4
+                </div>
+              </div> <br>
+
+            <h5>Land rover</h5>
+
+            <i class="fa-solid fa-gas-pump"></i> 90L &nbsp;
+            <i class="fa-solid fa-gear"></i> &nbsp; Manuel  &nbsp;
+            <i class="fa-solid fa-users"></i> &nbsp; 2 Passagers
+            </br></br>
+
+            <div class="row">
+                <div class="col-md-6">
+                  50.000 FCFA / Jour
+                </div>
+                <div class="col-md-6">
+                  <button type="button" style="
+                    text-align: center;
+                    border-radius: 5px; 
+                    background-color: orange; 
+                    color: white; 
+                    border: 0px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;">
+                      Louer
+                  </button>
+                </div>
+            </div>
+           
+            </div>
+          </div>
+
+          <div class="col-md-4 themed-grid-col">
+            <div class="themed-grid-col-suiv-2">
+              
+              <div class="container-imag">
+                <img src="images/1.jpg" alt="" style="text-align: center;">
+                <div class="fa-imag" style="
+                  padding: 5px;
+                  background-color: rgb(241, 158, 4);
+                  color: white;
+                  border-radius: 17px;">
+                  <i class="fa-solid fa-star"></i> 3.4
+                </div>
+              </div> <br>
+
+            <h5>Land rover</h5>
+
+            <i class="fa-solid fa-gas-pump"></i> 90L &nbsp;
+            <i class="fa-solid fa-gear"></i> &nbsp; Manuel  &nbsp;
+            <i class="fa-solid fa-users"></i> &nbsp; 2 Passagers
+            </br></br>
+
+            <div class="row">
+                <div class="col-md-6">
+                  50.000 FCFA / Jour
+                </div>
+                <div class="col-md-6">
+                  <button type="button" style="
+                    text-align: center;
+                    border-radius: 5px; 
+                    background-color: orange; 
+                    color: white; 
+                    border: 0px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;">
+                      Louer
+                  </button>
+                </div>
+            </div>
+           
+            </div>
+          </div>
+
+          <div class="col-md-4 themed-grid-col">
+            <div class="themed-grid-col-suiv-2">
+              
+              <div class="container-imag">
+                <img src="images/1.jpg" alt="" style="text-align: center;">
+                <div class="fa-imag" style="
+                  padding: 5px;
+                  background-color: rgb(241, 158, 4);
+                  color: white;
+                  border-radius: 17px;">
+                  <i class="fa-solid fa-star"></i> 3.4
+                </div>
+              </div> <br>
+
+            <h5>Land rover</h5>
+
+            <i class="fa-solid fa-gas-pump"></i> 90L &nbsp;
+            <i class="fa-solid fa-gear"></i> &nbsp; Manuel  &nbsp;
+            <i class="fa-solid fa-users"></i> &nbsp; 2 Passagers
+            </br></br>
+
+            <div class="row">
+                <div class="col-md-6">
+                  50.000 FCFA / Jour
+                </div>
+                <div class="col-md-6">
+                  <button type="button" style="
+                    text-align: center;
+                    border-radius: 5px; 
+                    background-color: orange; 
+                    color: white; 
+                    border: 0px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;">
+                      Louer
+                  </button>
+                </div>
+            </div>
+           
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  
+</main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
